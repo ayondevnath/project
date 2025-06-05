@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+   
+}
+#navigation{
+    background-image: linear-gradient(dodgerblue,rgb(19, 59, 99));
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+/* logo-area code start hear*/
+#logo-area > h1{
+    margin-left: 40px;
+    font-size: 35px;
+}
+/* manu-area code start hear*/
+#manu-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 100px;
+}
+#manu-area > li{
+    padding: 15px 0;
+    transition: 0.5s;
+}
+#manu-area > li > a{
+    padding: 15px 15px;
+    font-size: 20px;
+    border-right: 1px solid white;
+    color: white;
+}
+#manu-area > li:first-child{
+    border-left: 1px solid white;
+}
+#manu-area > li:hover {
+    background-color: rgb(8, 39, 69);
+}
+/* dropdownmanu code start hear*/
+#dropdownmanu{
+    opacity: 0;
+    visibility: hidden;
+    background-color: dodgerblue;
+    position: absolute;
+    width: 178px;
+    margin-top: 14px;
+    text-align: center;
+    transition: 0.5s;
+    transform: scaleY(0);
+    transform-origin: TOP;
+    box-shadow: 10px 10px 8px black;
+}
+#dropdownmanu > li{
+    padding: 15px;
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+}
+#dropdownmanu > li > a{
+    color: white;
+}
+#dropdownmanu > li:first-child{
+    border-top: 1px solid white;
+}
+#dropdownmanu >li:hover{
+    background-color: rgb(6, 76, 146);
+}
+#manu-area >li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+/* hero area code start hear */
+#main-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.306), rgba(0, 0, 0, 0.632)), url('images.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.header-container {
+    padding-top: 100px;
+}
+.header-container > h1{
+    background-color: rgba(29, 120, 212, 0.139);
+    width: 500px;
+    margin: auto;
+    font-size: 50px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+}
+.header-container > button{
+    font-size: 25px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: rgba(17, 75, 134, 0.653);
+    color: white;
+    border-radius: 30px 10px 30px 10px;
+    border: 3px solid green;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.header-container > button:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+.header-container > button:active{
+    background-image: linear-gradient(dodgerblue,rgb(3, 30, 57));
+    border: 3px solid green;
+}   
+.header-container > h4{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.345);
+}
+.header-container > h5{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.573);
+}
+
+/* first section code start hear */
+
+#first-container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+
+}
+.learn-programing{
+    width: 300px;
+    text-align: center;
+    padding: 30px 10px;
+    transition: 0.5s;
+}
+.learn-programing > h2{
+    margin: 15px 0;
+}
+.learn-programing:hover {
+    box-shadow: 3px 3px 10px black;
+}
+.web-developer{
+    width: 300px;
+    text-align: center;
+    padding: 30px 10px;
+    transition: 0.5s;
+}
+.web-developer > h2{
+    margin: 15px 0;
+}
+.web-developer:hover{
+    box-shadow: 3px 3px 10px black;
+}
+.Learn-Freelancing{
+    width: 300px;
+    text-align: center;
+    padding: 30px 10px;
+    transition: 0.5s;
+}
+.Learn-Freelancing > h2{
+    margin: 15px 0;
+}
+.Learn-Freelancing:hover{
+    box-shadow: 3px 3px 10px black;
+}
+
+/* second section code start hear */
+#second-section{
+    background-color: rgba(255, 228, 196, 0.616);
+}
+
+.smartarea-title > h2{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+.smartarea-title > h2::after{
+    content: '';
+    top: 56px;
+    left: 580px;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(142, 6, 6);
+    position: absolute;
+}
+.smart-area{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.smart-area-text{
+    width: 500px;
+}
+.smart-area-text > h2 {
+    margin: 20px 0;
+    
+}
+.smart-area-text > h4{
+    color: rgb(142, 6, 6);
+}
+.smart-area-text  > a{
+    text-decoration: none;
+    background-color: rgb(142, 6, 6);
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.smart-area-text  > a:hover{
+    background-color:  rgb(74, 8, 8);
+}
+.smart-area-text  > a:active{
+    background-color: white;
+    color: rgb(113, 13, 13);
+}
+/* third section code start hear */
+
+#third-section{
+    background-color: rgba(255, 228, 196, 0.47);
+}
+
+.services-area-title{
+    text-align: center;
+}
+.services-area-title > h2{
+    font-size: 38px;
+}
+.each-services-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-top: 50px;
+}
+.services-area{
+    width: 1000px;
+    margin: auto;
+}
+.each-services{
+    background-color: lightblue;
+    text-align: center;
+}
+.each-services > h3{
+    padding: 30px 0;
+    font-size: 25px;
+}
+
