@@ -3,173 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Responsive Website</title>
     <link rel="stylesheet" href="project.css">
-    <title>Project 1</title>
 </head>
 <body>
-    <header id="top">
-        <!-- navigation code start hear -->
-        <nav id="navigation">
-            <div id="logo-area">
-                <h1> Ayon</h1>
-            </div>
-            <ul id="manu-area">
-                <li><a href="#"> Home</a>
-                    <ul id="dropdownmanu">
-                        <li><a href="#"> HOME-1</a></li>
-                        <li><a href="#"> HOME-2</a></li>
-                        <li><a href="#"> HOME-3</a></li>
-                        <li><a href="#"> HOME-4</a></li>
-                        <li><a href="#"> HOME-5</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"> Services</a>
-                    <ul id="dropdownmanu">
-                        <li><a href="#"> HOME-1</a></li>
-                        <li><a href="#"> HOME-2</a></li>
-                        <li><a href="#"> HOME-3</a></li>
-                        <li><a href="#"> HOME-4</a></li>
-                        <li><a href="#"> HOME-5</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"> Products</a>
-                    <ul id="dropdownmanu">
-                        <li><a href="#"> HOME-1</a></li>
-                        <li><a href="#"> HOME-2</a></li>
-                        <li><a href="#"> HOME-3</a></li>
-                        <li><a href="#"> HOME-4</a></li>
-                        <li><a href="#"> HOME-5</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"> About Us</a>
-                    <ul id="dropdownmanu">
-                        <li><a href="#"> HOME-1</a></li>
-                        <li><a href="#"> HOME-2</a></li>
-                        <li><a href="#"> HOME-3</a></li>
-                        <li><a href="#"> HOME-4</a></li>
-                        <li><a href="#"> HOME-5</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"> Contact Us</a>
-                    <ul id="dropdownmanu">
-                        <li><a href="#"> HOME-1</a></li>
-                        <li><a href="#"> HOME-2</a></li>
-                        <li><a href="#"> HOME-3</a></li>
-                        <li><a href="#"> HOME-4</a></li>
-                        <li><a href="#"> HOME-5</a></li>
-                    </ul>
-                </li>
+    <header>
+        <nav class="nav">
+            <h1>FlexSite</h1>
+            <span class="nav-toggle"> &#9776</span>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <!-- hero area code start hear -->
-         <div id="main-header">
-
-            <div class="header-container">
-                <h4> You can learn with us! </h4>
-                <h1> Wellcome To Ayon Web</h1>
-                <h5> With a lot a Language</h5>
-                <button> Purchase Our Courses</button>
-            </div>
-         </div>
     </header>
-    <main>
-        <!-- first section -->
-        <section>
-            <div id="first-container">
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Bulid Modern Responsive Website</h2>
+            <p>Leran how Flexbox makes layout simpler across devices.</p>
+            <a href="#services" class="btn"> Get started</a>
+        </div>
+    </section>
 
-                <div class="learn-programing">
-                    <h2>Learn Programing</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis dolorem consectetur nesciunt quod, pariatur rem aut tenetur modi eius!</p>
-                </div>
-                <div class="web-developer">
-                    <h2>Web Developer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error enim eligendi vel sit in, quas alias odio minus dolor!</p>
-                </div>
-                <div class="Learn-Freelancing">
-                            <h2> Learn Freelancing</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod ipsum accusantium quidem ullam ad dolorem placeat eum, aut nulla.</p>
-                </div>
+    <section id="services" class="section">
+        <div class="card">
+            <h3>Fast Development</h3>
+            <p>Write less code and achieve more with Flexbox</p>
+        </div>
+        <div class="card">
+            <h3>Responsive Design</h3>
+            <p>Layouts automatically adapt to any screen size.</p>
+        </div>
+        <div class="card">
+            <h3>Clean Code </h3>
+            <p>Maintain scalable and clean structure for your project.</p>
+        </div>
+    </section>
 
-            </div>
-        </section>
-        
-        <!-- second section code start hear -->
-        <section id="second-section">
+    <section id="about" class="section">
+        <div class="card">
+            <h3>About Us</h3>
+            <p>We are passinate developers teaching modern web technologies.</p>
+        </div>
+        <div class="card">
+            <h3>Our Mission</h3>
+            <p>Empower lerners to build efficient and responsive web applications.</p>
+        </div>
+    </section>
 
-          <div>
-            <div class="smartarea-title">
-                <h2> Smart Area</h2>
-            </div>
+    <section id="contact" class="section">
+        <div class="card">
+            <h3>Contact</h3>
+            <p>Email: ayan776@gmail.com <br> Phone: +880-1810-632858</p>
+        </div>
+    </section>
 
-            <div class="smart-area">
-                <div>
-                    <img src="smart_women[1].jpg" alt="logo">
-                </div>
-                    <div class="smart-area-text">
-                    <h4>TRY SOMETHING NEW FOR YOU!</h4>
-                    <h2> Create Own Bussniss</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi error porro hic libero consequatur nulla beatae laborum ipsum quidem iste, corporis, laboriosam aliquam velit facere. Esse quo in repellendus, voluptas quae at sapiente dicta? Nihil esse repellendus nisi aliquam dolorum labore. A, sapiente. Eum consequatur totam necessitatibus placeat excepturi dolorum vitae quibusdam repellendus beatae. Distinctio impedit possimus magnam doloremque laudantium adipisci nulla accusamus. Vero, eum eveniet placeat earum veritatis modi nihil. Alias eveniet cum consequatur odit dolorem totam quidem distinctio animi rerum, doloribus veniam magnam omnis dicta veritatis illo exercitationem. Veniam, provident impedit, temporibus fugiat laborum quidem, debitis beatae error unde possimus inventore? Est odit aspernatur voluptatem similique magnam  </p>
-                    <a href="#"> Cheek Out</a>
-                </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- third section code start hear -->
-        <section id="third-section">
-
-            <div class="services-area">
-
-
-                <div class="services-area-title">
-                    <h4>We provide only quality</h4>
-                    <h2>Our primary services </h2>
-                </div>
-
-
-                <div class="each-services-parent">
-
-
-                    <div class="each-services">
-                        <h3>Visual Composer</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio esse tempore reiciendis perspiciatis voluptas </p>
-                    </div>
-
-
-                    <div class="each-services">
-                        <h3>Fully Responsive</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet, illo cum ratione at incidunt!</p>
-                    </div>
-
-
-                    <div class="each-services">
-                        <h3>E-Commerce</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati quos optio nulla cumque saepe animi.</p>
-                    </div>
-
-
-                    <div class="each-services">
-                        <h3>clean & Optiamized</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, adipisci! Sit quaerat ue consequar.</p>
-                    </div>
-
-
-                    <div class="each-services">
-                        <h3>High Speed Load</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa delectus odit esse consequatur, nihil cumque.</p>
-                    </div>
-
-
-                    <div class="each-services">
-                        <h3>Engine SEO Ready</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus ratione dolores qui quo voluptatum corrupti!</p>
-                    </div>
-                </div>
-
-            </div>
-          
-        </section>
-    </main>    
-
+    <footer>
+        <p>&copy; 2025 FlexSite. All rights reserved.</p>
+    </footer>
+    <script src="project.js"></script>
 </body>
 </html>
