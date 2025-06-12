@@ -100,12 +100,6 @@ footer{
     padding: 1rem;
 
 }
-.nav ul{
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-}
-
 @meada (max-width: 767px){
     .nav ul{
         position: absolute;
@@ -118,7 +112,7 @@ footer{
         padding: 1rem 0;
     }
     .nav .active ul{
-        display: block;
+        display: flex;
     }
     .nav-toggle{
         display: block;
