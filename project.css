@@ -69,6 +69,7 @@ header{
 }
 .btn:hover{
     background: #ddd;
+    color: black;
 }
 
 .section{
@@ -100,7 +101,7 @@ footer{
 
 }
 
-@meada (max-width: 768px){
+@meada (max-width: 767px){
     .nav ul{
         position: absolute;
         top : 64px;
